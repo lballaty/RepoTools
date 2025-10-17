@@ -1,0 +1,47 @@
+{
+  "name": "@arioncomply/antipattern-detector",
+  "version": "1.0.0",
+  "description": "Reusable antipattern detection for JavaScript, TypeScript, and Python codebases",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "lint": "eslint .",
+    "validate": "node cli.js"
+  },
+  "keywords": [
+    "antipattern",
+    "code-quality",
+    "security",
+    "xss",
+    "csrf",
+    "testing",
+    "playwright",
+    "static-analysis"
+  ],
+  "author": "Libor Ballaty <libor@arionetworks.com>",
+  "license": "PROPRIETARY",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arionnetworks/arioncomply-tools"
+  },
+  "bugs": {
+    "url": "https://github.com/arionnetworks/arioncomply-tools/issues",
+    "email": "libor@arionetworks.com"
+  },
+  "files": [
+    "index.js",
+    "gui-security-antipatterns.js",
+    "validate-code-antipatterns.py",
+    "run-antipattern-check.sh",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
+}
